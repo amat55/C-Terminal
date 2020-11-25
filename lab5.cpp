@@ -2,18 +2,20 @@
 //
 
 #include <iostream>
-
+#include <cstdio>
 using namespace std;
 
 void twodimentional2();
 void twodimentional5();
 void twodimentional6();
+void reversestring9();
 
 int main()
 {
     //twodimentional2();
     //twodimentional5();
     //twodimentional6();
+    //reversestring9();
 }
 
 void twodimentional2() {
@@ -77,6 +79,32 @@ void twodimentional6() {
             arr[0] = arr[i];
     }
     cout << "Largest element = " << arr[0];
+}
+
+
+void reversestring9() {
+    char s[1000], r[1000];
+    int begin, end, count = 0;
+
+    cout << ("Input a string\n");
+    gets_s(s);
+
+    // Calculating string length
+
+    while (s[count] != '\0')
+        count++;
+
+    end = count - 1;
+
+    for (begin = 0; begin < count; begin++) {
+        r[begin] = s[end];
+        end--;
+    }
+
+    r[begin] = '\0';
+
+    cout << ("%s\n", r);
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
