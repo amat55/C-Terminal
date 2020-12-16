@@ -98,6 +98,56 @@ using namespace std;
 //    return 0;
 //}
 
+
+#pragma region 4
+//Ex. 7
+//Design a class to store information about student.Write two constructorsand function which prints information.
+//Instantiate objectsand check how it works.
+
+
+//class student
+//{
+//private:
+//    char  name[30];
+//    int   rollNo;
+//    float perc;
+//public:
+//    void getDetails(void);
+//    void putDetails(void);
+//};
+//
+//void student::getDetails(void) {
+//    cout << "Enter name: ";
+//    cin >> name;
+//    cout << "Enter roll number: ";
+//    cin >> rollNo;
+//    
+//}
+//
+//void student::putDetails(void) {
+//    cout << "Student details:\n";
+//    cout << "Name:" << name << ",Roll Number:" << rollNo  << endl;
+//}
+//
+//int main()
+//{
+//    student std;       
+//    int n, loop;
+//
+//    cout << "Enter total number of students: ";
+//    cin >> n;
+//    for (loop = 0; loop < n; loop++) {
+//        cout << "Enter details of student " << loop + 1 << ":\n";
+//        std.getDetails();
+//    }
+//    cout << endl;
+//    for (loop = 0; loop < n; loop++) {
+//        cout << "Details of student " << (loop + 1) << ":\n";
+//        std.putDetails();
+//    }
+//
+//    return 0;
+//}
 #pragma endregion
 
 
