@@ -1,2 +1,2 @@
-# WithSchool
+# C++ Terminal and algorithims
 Laboratories
